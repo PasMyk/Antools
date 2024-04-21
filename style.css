@@ -1,0 +1,635 @@
+:root {
+    --grey: rgb(196, 196, 196);
+    --little-black: rgb(30, 37, 43);
+    --white: rgba(255, 255, 255, 0.9);
+    --button-bgp: rgb(255, 110, 48);
+    --form: rgb(40, 48, 54);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--little-black);
+}
+
+.header-logo {
+    width: 19.29px;
+    height: 20.95px;
+    left: 117.26px;
+    right: -117.17px;
+    top: 38.31px;
+    bottom: -38.31px;
+}
+
+.header-text {
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-nav {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-btn {
+    color: rgba(255, 255, 255, 0.78);
+    background-color: var(--little-black);
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+
+}
+
+.header-btn:hover {
+    background-color: var(--button-bgp);
+}
+
+.header-btn:focus {
+    background-color: var(--button-bgp);
+}
+
+.main-title {
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: left;
+    width: 600px;
+    margin: 0;
+}
+
+.under-main-title {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+}
+
+header {
+    background-image: url(./images/Illustration@2x.png);
+    background-size: 590px 890px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.form-main {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 15px;
+    background-color: var(--form);
+    align-items: center;
+    width: 500px;
+    justify-content: space-between;
+    padding: 8px 11px 8px 19px;
+}
+
+.main-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-main {
+    display: flex;
+    align-items: center;
+}
+
+.blogs {
+    padding: 110px 0px 0px 0px;
+}
+
+.main-btn {
+    width: 130px;
+    background-color: rgb(40, 48, 54);
+    color: rgb(255, 255, 255);
+    padding: 12px 36px;
+    border-radius: 8px;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: var(--button-bgp);
+}
+
+.main-btn:focus {
+    background-color: var(--button-bgp);
+}
+
+.main-input {
+    width: 200px;
+    color: rgba(255, 255, 255, 0.38);
+    background-color: rgb(40, 48, 54);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    border: none;
+    outline: none;
+    padding: 14px 12px 14px 0px;
+}
+
+.main-search {
+    width: 25px;
+    padding: 0px 13px 0px 0px;
+}
+
+.apps-title {
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.apps-text {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.apps-names {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.apps-cost {
+    color: rgba(255, 165, 55, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.apps-describe {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.app-visit {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.app-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background: rgb(30, 37, 43);
+    color: rgb(255, 110, 48);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 184px;
+    height: 64px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.app-btn:hover {
+    background-color: var(--button-bgp);
+    color: var(--white);
+}
+
+.app-btn:focus {
+    background-color: var(--button-bgp);
+}
+
+.brand-text {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.newcomer-title {
+    color: var(--white);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+.newcomer-text {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.newcomer-app-title {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.newcomer-app-text {
+    color: rgba(255, 165, 55, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.newcomer-app-descrive {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.newcomer-visit {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.personal {
+    color: rgba(255, 255, 255, 0.78);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.5%;
+    text-align: left;
+}
+
+.contributor-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+}
+
+.contributor-text {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.company-title,
+.contanct-title,
+.categories-title,
+.company-info-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.contact-info {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.categories-info {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.company-describe {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-describe {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.company-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.footer-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-navigation-main {
+    display: flex;
+    gap: 40px;
+}
+
+.header-btn-main {
+    display: flex;
+    gap: 40px;
+}
+
+.main-category {
+    display: flex;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.form-setting {
+    display: flex;
+    padding: 60px 0px 0px 0px;
+}
+
+.apps-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.apps-blocks {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    width: 326px;
+    height: 228px;
+}
+
+.app-block-inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.app-avatar {
+    width: 64px;
+    height: 56.95px;
+}
+
+.app-links {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 0px 0px 0px 125px;
+}
+
+.apps-names,
+.apps-cost {
+    margin: 0;
+}
+
+.app-block-names {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.btn-visit {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(30, 37, 43);
+    border: none;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+.btn-visit:hover {
+    border-radius: 8px;
+    background: rgb(255, 110, 48);
+    color: rgb(255, 255, 255);
+}
+
+.btn-visit:focus {
+    background-color: var(--button-bgp);
+}
+
+.brand-section {
+    border-radius: 25px;
+    backdrop-filter: blur(50px);
+    background: rgba(44, 53, 61, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    padding: 55px 85px;
+}
+
+.brands {
+    display: flex;
+    gap: 105px;
+    align-items: center;
+}
+
+.apps-section {
+    padding: 200px 0px;
+}
+
+.newcomer-section {
+    padding: 200px 0px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+}
+
+.title-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 90px;
+}
+
+.newcomer-btn {
+    border-radius: 8px;
+    background: rgb(30, 37, 43);
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+}
+
+.newcomer-btn:hover {
+    background-color: var(--button-bgp);
+}
+
+.newcomer-btn:focus {
+    background-color: var(--button-bgp);
+}
+
+.newcomer-links {
+    display: flex;
+    align-items: center;
+}
+
+.newcomer-visit {
+    padding: 0px 0px 0px 40px;
+}
+
+.newcomer-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.newcomer-under-title {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.newcomers-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 245px;
+}
+
+.newcomer-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: flex-end;
+}
+
+.newcomer-section {
+    display: flex;
+}
+
+.newcomer-vstup {
+    width: 427px;
+    display: block;
+    margin-right: 197px;
+}
