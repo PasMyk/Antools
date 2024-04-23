@@ -280,6 +280,7 @@ header {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
+    padding: 0px 0px 60px;
 }
 
 .newcomer-app-title {
@@ -332,6 +333,7 @@ header {
     line-height: 30px;
     letter-spacing: 1.5%;
     text-align: left;
+    width: 393px;
 }
 
 .contributor-title {
@@ -341,6 +343,8 @@ header {
     font-weight: 500;
     line-height: 130%;
     letter-spacing: 0%;
+    margin: 0;
+    padding: 250px 0px 0px 0px;
 }
 
 .contributor-text {
@@ -351,6 +355,9 @@ header {
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
+    width: 427px;
+    margin: 0;
+    padding: 0px 0px 100px;
 }
 
 .company-title,
@@ -613,7 +620,7 @@ header {
 .newcomers-blocks {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     width: 245px;
 }
 
@@ -626,10 +633,160 @@ header {
 
 .newcomer-section {
     display: flex;
+    align-items: baseline;
 }
 
 .newcomer-vstup {
-    width: 427px;
     display: block;
     margin-right: 197px;
+}
+
+.newcomer-images {
+    padding: 0px 45px 0px 0px;
+}
+
+.workers-sections {
+    display: flex;
+    align-items: center;
+}
+
+.personal-information {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.form-contributor {
+    border-radius: 15px;
+    background: rgb(40, 48, 54);
+}
+
+.contributor-input {
+    color: rgba(255, 255, 255, 0.38);
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    background: rgb(40, 48, 54);
+    border: none;
+    width: 372px;
+    height: 45px;
+}
+
+.contributor-btn {
+    color: rgb(255, 255, 255);
+    background-color: var(--button-bgp);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 12px 36px;
+    border: none;
+    width: 130.43px;
+    height: 48px;
+    height: 48px;
+}
+
+.contributor-btn:hover {
+    background-color: var(--button-bgp);
+}
+
+.contributor-btn:focus {
+    background-color: var(--button-bgp);
+}
+
+.form-contributor {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px 8px 24.18px;
+}
+
+.label-contributor {
+    display: flex;
+    align-items: center;
+}
+
+.contributor-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workers-sections {
+    display: flex;
+    gap: 125px;
+}
+
+.contributor-title {
+    text-align: center;
+}
+
+.contributor-zag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.footer-company {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-describe {
+    width: 260px;
+}
+
+.logo {
+    width: 38px;
+    height: 38px;
+}
+
+.footer-comapny-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-address {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-category {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comapny-lvl {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section {
+    display: flex;
+    gap: 115px;
+    padding: 240px 0px 0px 0px;
 }
